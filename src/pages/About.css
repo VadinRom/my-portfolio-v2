@@ -1,0 +1,50 @@
+.content {
+    width: 100%;
+    flex-direction: row;
+    display: block;
+}
+
+.center {
+    width: 70%;
+    height: 100%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.nav {
+    position: absolute;
+    width: 250px;
+    border-right: 1px solid #ccc;
+}
+
+.nav__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rowside {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.rowside img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.nav__icon {
+    position: absolute;
+    top: 0;
+    right: -120px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.nav__icon:hover {
+    color: #5eb2ff;
+}
